@@ -114,6 +114,7 @@ jinja2==3.1.4
     # via nbconvert
     # via torch
 joblib==1.4.2
+    # via kmodes
     # via scikit-learn
 json5==0.9.25
     # via jupyterlab-server
@@ -168,6 +169,8 @@ jupyterlab-widgets==3.0.11
     # via ipywidgets
 kiwisolver==1.4.5
     # via matplotlib
+kmodes==0.12.2
+    # via reserach-template
 lightning==2.3.3
     # via reserach-template
 lightning-utilities==0.11.6
@@ -214,6 +217,7 @@ notebook-shim==0.2.4
     # via notebook
 numpy==2.0.1
     # via contourpy
+    # via kmodes
     # via lightning
     # via matplotlib
     # via pandas
@@ -315,8 +319,10 @@ rpds-py==0.19.1
     # via referencing
 ruff==0.5.4
 scikit-learn==1.5.1
+    # via kmodes
     # via reserach-template
 scipy==1.14.0
+    # via kmodes
     # via scikit-learn
 seaborn==0.13.2
     # via reserach-template
