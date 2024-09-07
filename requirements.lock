@@ -78,6 +78,8 @@ fsspec==2024.6.1
     # via lightning
     # via pytorch-lightning
     # via torch
+gower==0.1.2
+    # via reserach-template
 h11==0.14.0
     # via httpcore
 httpcore==1.0.5
@@ -214,6 +216,7 @@ notebook-shim==0.2.4
     # via notebook
 numpy==2.0.1
     # via contourpy
+    # via gower
     # via kmodes
     # via lightning
     # via matplotlib
@@ -318,6 +321,7 @@ scikit-learn==1.5.1
     # via kmodes
     # via reserach-template
 scipy==1.14.0
+    # via gower
     # via kmodes
     # via scikit-learn
 seaborn==0.13.2
