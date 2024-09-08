@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt]{article}  % 文書クラス (A4サイズ、文字サイズ12pt)
+\usepackage[utf8]{inputenc}  % UTF-8エンコーディングの使用
+\usepackage{amsmath}  % 数式用のパッケージ
+\usepackage{graphicx}  % 画像を挿入するためのパッケージ
+\usepackage{hyperref}  % ハイパーリンクを作成するためのパッケージ
+\usepackage{geometry}  % ページの余白を調整するためのパッケージ
+\geometry{margin=1in}  % 余白を1インチに設定
+
+\title{Your Document Title}  % タイトル
+\author{Your Name}  % 著者
+\date{\today}  % 日付 (自動で今日の日付を挿入)
+
+\begin{document}
+
+\maketitle  % タイトルを表示
+
+\tableofcontents  % 目次を挿入
+
+\section{Introduction}  % セクション1: Introduction
+This is the introduction of your document. You can write your introduction here.
+
+\section{Main Content}  % セクション2: Main Content
+This is the main content of your document. 
+
+\subsection{Subsection 1}  % サブセクション1
+You can also create subsections like this.
+
+\[
+    E = mc^2  % 数式の例
+\]
+
+\subsection{Subsection 2}  % サブセクション2
+You can insert images like this:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image.png}  % 画像を挿入
+    \caption{This is an example image.}
+\end{figure}
+
+\section{Conclusion}  % セクション3: Conclusion
+Write your conclusion here.
+
+\end{document}
