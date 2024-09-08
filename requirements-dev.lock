@@ -217,7 +217,7 @@ notebook==7.2.1
 notebook-shim==0.2.4
     # via jupyterlab
     # via notebook
-numpy==2.0.1
+numpy==1.26.4
     # via contourpy
     # via gower
     # via kmodes
