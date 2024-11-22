@@ -215,7 +215,7 @@ notebook==7.2.1
 notebook-shim==0.2.4
     # via jupyterlab
     # via notebook
-numpy==1.26.4
+numpy==1.26.1
     # via contourpy
     # via gower
     # via kmodes
@@ -244,7 +244,7 @@ packaging==24.1
     # via qtconsole
     # via qtpy
     # via torchmetrics
-pandas==2.2.2
+pandas==2.2.3
     # via reserach-template
     # via seaborn
 pandocfilters==1.5.1

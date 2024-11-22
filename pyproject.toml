@@ -6,8 +6,8 @@ authors = [
     { name = "Monketu", email = "s2110892@s.tsukuba.ac.jp" }
 ]
 dependencies = [
-    "pandas>=2.2.2",
-    "numpy==1.24.0",
+    "pandas==2.2.3",
+    "numpy==1.26.1",
     "jupyter>=1.0.0",
     "matplotlib>=3.9.1",
     "seaborn>=0.13.2",
