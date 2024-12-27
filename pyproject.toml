@@ -17,6 +17,7 @@ dependencies = [
     "kmodes>=0.12.2",
     "gower>=0.1.2",
     "pyclustering>=0.10.1.2",
+
 ]
 readme = "README.md"
 requires-python = ">= 3.12"
@@ -43,3 +44,4 @@ format = { cmd = "rye run ruff format" }
 lint = {chain = ["lint:ruff", "lint:mypy"]}
 "lint:ruff" = "rye run ruff check --fix"
 "lint:mypy" = "rye run mypy . --config-file pyproject.toml"
+
