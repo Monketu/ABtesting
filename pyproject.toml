@@ -44,4 +44,3 @@ format = { cmd = "rye run ruff format" }
 lint = {chain = ["lint:ruff", "lint:mypy"]}
 "lint:ruff" = "rye run ruff check --fix"
 "lint:mypy" = "rye run mypy . --config-file pyproject.toml"
-
